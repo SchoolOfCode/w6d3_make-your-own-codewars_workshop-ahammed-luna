@@ -42,15 +42,14 @@ function bunchTogetherFlowersByNumber(array){
     let oddNumFlowers=[];
     let negativeNumFlowers=[];
     for(let i = 0; i < magicalFlowers.length; i++){
-   if(magicalFlower[i]% 2 === 0){
-       evenNumFlowers.push
+   if(magicalFlowers[i]% 2 === 0){
+      evenNumFlowers.push(magicalFlowers[i])
    } else if(magicalFlower[i] > 0){
-       negativeNumFlowers.push
-   } else { oddNumFlowers. push
+       negativeNumFlowers.push.push(magicalFlowers[i])
+   } else { oddNumFlowers.push.push(magicalFlowers[i])
    }
    return evenNumFlowers;
    return negativeNumFlowers;
    return oddNumFlowers;
-
     }
 }
