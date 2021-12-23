@@ -1,5 +1,3 @@
-import arrayLoop from "./main.js";
-
 //👉 Write your tests below here:
 
 describe("Array functionality testing.", () =>{
@@ -7,9 +5,9 @@ describe("Array functionality testing.", () =>{
         const inputArray = [1, 2, 3, -1];
         const actual = arrayLoop(inputArray);
         let expected = {
-            evenArray : [2],
-            oddArray  : [1, 3],
-            negativeArray : [-1],
+            unlockKeyVase : [2],
+            unlockMapVase  : [1, 3],
+            unlockMagicBookVase : [-1],
           };
           expect(actual).toStrictEqual(expected);
 })

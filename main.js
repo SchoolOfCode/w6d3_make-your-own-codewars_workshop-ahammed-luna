@@ -1,65 +1,29 @@
-/* 
-👉 Write your kata here!
-Scenario: there is a dragon with its own castle waiting for a friend to join it in its
-luxurious and adventurous life.
-All you need to do to join the dragon is to organise a bunch of magical flowers:
- 
-Each flower is numbered, go through the bunch of flowers and separate them in 3 different bunches:
-
--  return together the even numbered 
-flowers so you can find the key to the castle,
--  return together the negative numbered flowers to get a magical spell book so you can learn
-magic and go for adventures
--  return together the leftovers flowers so you can 
-find the map to the castle,
-
-what we need to make this happen:
--an initial array where all the numbered flowers are inside
--a function to go through the array
-    -in the function:
-        -for loop to go through the array
-            1. if statement for even numbers if( === some[i]) 
-                return even numbers pushed into the array
-                create variable with empty array
-
-            2. if statement for odd numbers
-                return even numbers pushed into the array
-                create variable with empty array
-
-            3. if statement for negative numbers
-                return even numbers pushed into the array
-                create variable with empty array
+// HOW TO BEFRIEND A DRAGON:
 
 
-*/
+//Scenario: there is a dragon with its own castle waiting for a friend to join it in its
+//luxurious and adventurous life. All you need to do to join the dragon is to organise 
+//a bunch of magical flowers (every flower is numbered, no flower is ever numbered 0) in the 3 provided vases.
+//For the vases to work you need to divide the flowers in:
+//                                                          -odd numbered flowers
+//                                                          -even numbered flowers      
+//                                                          -negative numbered flowers  
+
+//each vase will unlock something that you will need to befriend the dragon.
+//Odd numbered flowers vase is to unlock the key to the castle
+//Even numbered flowers vase is to unlock the map to reach the castle
+//Negative numbered flowers vase is to achieve the magic book spell to go for adventures
 
 
-//👉 Write the function your CodeWarriors will start with below here:
 
+//below you have a suggestion of how you can proceed
 
-export default function arrayLoop(array){
-    let sortedFlowers = {
-            evenArray : [],
-            oddArray  : [],
-            negativeArray : [],
-    }
- 
-    for(let i= 0; i < array.length; i++){
-       
-        if(array[i] < 0){
-            sortedFlowers.negativeArray.push(array[i]);
-
-        }
-        if(array[i]%2 === 1){
-            sortedFlowers.oddArray.push(array[i]);
-
-        }
-        if(array[i]%2 === 0){
-            sortedFlowers.evenArray.push(array[i]);
-
+function divdeFlowers(arrayOfBunchOfFlowers){
+        let providedVase ={
+            unlockKeyVase: [],
+            unlockMapVase: [],
+            unlockMagicBookVase: [],
         }
 
-    }
 
-    return sortedFlowers;
 }
