@@ -9,7 +9,7 @@ describe("Array functionality testing.", () =>{
         let expected = {
             evenArray : [2],
             oddArray  : [1, 3],
-            negetiveArray : [-1],
+            negativeArray : [-1],
           };
           expect(actual).toStrictEqual(expected);
 })

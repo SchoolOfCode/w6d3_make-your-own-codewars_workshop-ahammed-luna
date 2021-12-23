@@ -41,13 +41,13 @@ export default function arrayLoop(array){
     let sortedFlowers = {
             evenArray : [],
             oddArray  : [],
-            negetiveArray : [],
+            negativeArray : [],
     }
  
     for(let i= 0; i < array.length; i++){
        
         if(array[i] < 0){
-            sortedFlowers.negetiveArray.push(array[i]);
+            sortedFlowers.negativeArray.push(array[i]);
 
         }
         if(array[i]%2 === 1){
