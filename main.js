@@ -38,37 +38,28 @@ what we need to make this happen:
 
 
 export default function arrayLoop(array){
-    const evenArray = [];
-    const oddArray  = [];
-   const negetiveArray = [];
-    
-       for(let i= 0; i < array.length; i++){
-          
-           if(array[i] < 0){
-               negetiveArray.push(array[i]);
-   
-           }
-           if(array[i]%2 === 1){
-               oddArray.push(array[i]);
-   
-           }
-           if(array[i]%2 === 0){
-               evenArray.push(array[i]);
-   
-           }
-   
-   
-   
-       }
-       console.log(oddArray);
-       console.log(evenArray);
-       console.log(negetiveArray);
+    let sortedFlowers = {
+            evenArray : [],
+            oddArray  : [],
+            negetiveArray : [],
+    }
+ 
+    for(let i= 0; i < array.length; i++){
+       
+        if(array[i] < 0){
+            sortedFlowers.negetiveArray.push(array[i]);
 
-     return evenArray;
-            //oddArray,
-            //negetiveArray;
-       
-           
-      
-       
-   }
+        }
+        if(array[i]%2 === 1){
+            sortedFlowers.oddArray.push(array[i]);
+
+        }
+        if(array[i]%2 === 0){
+            sortedFlowers.evenArray.push(array[i]);
+
+        }
+
+    }
+
+    return sortedFlowers;
+}
