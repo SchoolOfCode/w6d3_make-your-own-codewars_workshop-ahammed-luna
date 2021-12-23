@@ -32,8 +32,6 @@ const negetiveArray = [];
 
         }
 
-
-
     }
 
     return oddArray,
