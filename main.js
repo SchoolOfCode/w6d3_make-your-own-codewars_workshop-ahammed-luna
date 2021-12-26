@@ -10,15 +10,15 @@
 //                                                          -negative numbered flowers  
 
 //each vase will unlock something that you will need to befriend the dragon.
-//Odd numbered flowers vase is to unlock the key to the castle
-//Even numbered flowers vase is to unlock the map to reach the castle
-//Negative numbered flowers vase is to achieve the magic book spell to go for adventures
+//Odd numbered flowers vase is to unlock the key to the castle.
+//Even numbered flowers vase is to unlock the map to reach the castle.
+//Negative numbered flowers vase is to achieve the magic book useful to go for adventures.
 
 
 
-//below you have a suggestion of how you can proceed
+//below you have a suggestion on how you can proceed:
 
-function divdeFlowers(arrayOfBunchOfFlowers){
+function divideFlowers(arrayOfBunchOfFlowers){
         let providedVase ={
             unlockKeyVase: [],
             unlockMapVase: [],

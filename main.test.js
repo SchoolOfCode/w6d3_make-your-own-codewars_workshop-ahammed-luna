@@ -5,8 +5,8 @@ describe("Array functionality testing.", () =>{
         const inputArray = [1, 2, 3, -1];
         const actual = arrayLoop(inputArray);
         let expected = {
-            unlockKeyVase : [2],
-            unlockMapVase  : [1, 3],
+            unlockKeyVase : [1, 3],
+            unlockMapVase  : [2],
             unlockMagicBookVase : [-1],
           };
           expect(actual).toStrictEqual(expected);
