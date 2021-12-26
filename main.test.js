@@ -1,4 +1,4 @@
-//👉 Write your tests below here:
+//this is the example of testing used to make sure the function returns the expected result:
 
 describe("Array functionality testing.", () =>{
     it("will oragnise all the flowers in the different vases they belong to", function(){
